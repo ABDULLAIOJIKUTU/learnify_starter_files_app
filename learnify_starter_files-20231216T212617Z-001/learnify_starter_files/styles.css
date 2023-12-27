@@ -1,0 +1,101 @@
+/* these are the color for our web pages,as well as the font stack and sizes */
+:root {
+  --white: #ffffff;
+  --dkblue: #032f4f;
+  --magenta: #89067a;
+  --yel: #f7bd00;
+  --grey: #8baec6;
+  --font-size: 1.5rem;
+  --arial: Arial, Helvetica, sans-serif;
+}
+
+/* general styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #9d9c9d22;
+  color: var(--dkblue);
+  padding: 2rem;
+}
+a {
+  color: var(--dkblue);
+  font-family: var(--arial);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: var(--yel);
+}
+p {
+  text-align: center;
+}
+p a {
+  color: var(--yel);
+}
+
+/* header styles */
+header {
+  margin: auto;
+  text-align: center;
+  padding-top: 4rem;
+}
+header p {
+  margin: 10px;
+  padding-bottom: 4rem;
+  font-size: var(--font-size);
+  line-height: 1;
+}
+header img {
+  width: 200px;
+}
+
+/* input styles */
+.input {
+  margin: 6px;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 14px;
+  /* border: 1px  solid var(--grey); */
+  border-top: 1px solid var(--grey);
+  border-left: 1px solid var(--grey);
+  border-bottom: 1px solid rgba(152, 151, 151, 0.668);
+  border-right: 1px solid rgba(152, 151, 151, 0.668);
+  box-shadow: 5px 4px 10px 0px rgba(172, 202, 225, 0.598);
+}
+/* label styles */
+#label {
+  margin-left: 7px;
+}
+
+/* container styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid aqua; */
+  width: 24rem;
+  margin: auto;
+  padding: 10px;
+}
+/* forgot password */
+.forgot {
+  margin-left: 15rem;
+  padding: 5px;
+  width: fit-content;
+}
+/* paragragh with sign up link */
+.container p {
+  line-height: 1;
+  font-family: var(--arial);
+}
+
+/* button styles */
+button {
+  margin: 1.5rem auto;
+  padding: 16px;
+  width: 23rem;
+  background-color: rgb(107, 11, 126);
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+}
